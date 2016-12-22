@@ -1,0 +1,11 @@
+name: StdExample
+description: "Simple example of standard io plugin written in ruby/gtk3"
+version: "1.0"
+author: Diginatu
+method: std
+exec:
+- 'ruby'
+- '{{path}}/stdexample.rb'
+nagomever: ""
+subscribe:
+- nagome
