@@ -60,7 +60,6 @@ class RubyApp < Gtk::Window
     end
 end
 
-Gtk.init
 app = RubyApp.new
 
 t = Thread.new do
